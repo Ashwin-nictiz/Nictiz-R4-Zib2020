@@ -1,0 +1,108 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="2.16.840.1.113883.2.4.3.11.60.101.5.1"/>
+   <meta>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/CodeSystem"/>-->
+   </meta>
+   <language value="nl-NL"/>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2013-03-25T14:13:00+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="urn:oid:2.16.840.1.113883.2.4.3.11.60.101.5.1"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/cs"/>
+      <value value="2.16.840.1.113883.2.4.3.11.60.101.5.1"/>
+   </identifier>
+   <version value="2013-03-25T14:13:00"/>
+   <name value="VerzekeringsSoort"/>
+   <title value="Verzekeringssoort"/>
+   <status value="active"/>
+   <experimental value="false"/>
+   <publisher value="Nictiz"/>
+   <contact>
+      <name value="Nictiz"/>
+      <telecom>
+         <system value="phone"/>
+         <value value="T 070 317 3450"/>
+      </telecom>
+   </contact>
+   <description value="Mapt naar COD151-VEK1 code. COV: nieuwe versie van cov (VZ801/802). De waarden voor verzekeringssoort zijn vastgesteld door Vektis. Zij gebruiken vaste tekst welke functioneert als code, maar er zijn geen codes voor vastgesteld."/>
+   <caseSensitive value="false"/>
+   <content value="complete"/>
+   <count value="6"/>
+   <concept>
+      <code value="B"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Basis verzekerd"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="A"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Aanvullend verzekerd"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="BZ"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Basisverzekering vanuit AWBZ"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="H"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Hoofdverzekering"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="T"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tandverzekering (los)"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="AT"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Aanvullend + Tand"/>
+      </designation>
+   </concept>
+</CodeSystem>

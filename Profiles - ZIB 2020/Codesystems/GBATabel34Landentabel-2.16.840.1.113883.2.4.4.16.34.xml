@@ -1,0 +1,4717 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="2.16.840.1.113883.2.4.4.16.34"/>
+   <meta>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/CodeSystem"/>-->
+   </meta>
+   <language value="nl-NL"/>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2020-04-01T00:00:00+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="urn:oid:2.16.840.1.113883.2.4.4.16.34"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/cs"/>
+      <value value="2.16.840.1.113883.2.4.4.16.34"/>
+   </identifier>
+   <version value="2020-04-01T00:00:00"/>
+   <name value="GBATabel34Landentabel"/>
+   <title value="GBA Tabel 34 (Landentabel)"/>
+   <status value="draft"/>
+   <experimental value="false"/>
+   <publisher value="Rijksdienst voor Identiteitsgegevens"/>
+   <contact>
+      <name value="Rijksdienst voor Identiteitsgegevens"/>
+      <telecom>
+         <system value="url"/>
+         <value value="http://publicaties.rvig.nl"/>
+      </telecom>
+   </contact>
+   <description value="GBA/BRP tabel 34 Landen. Link naar de bron [https://publicaties.rvig.nl/Landelijke_tabellen/Inleiding_op_de_Landelijke_Tabellen_GBA](https://publicaties.rvig.nl/Landelijke_tabellen/Inleiding_op_de_Landelijke_Tabellen_GBA)"/>
+   <copyright value="Rijksdienst voor Identiteitsgegevens"/>
+   <caseSensitive value="false"/>
+   <content value="complete"/>
+   <count value="390"/>
+   <concept>
+      <code value="0000"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Onbekend"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5001"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Canada"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5002"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Frankrijk"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5003"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zwitserland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5004"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Rhodesië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5005"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Malawi"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5006"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Cuba"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5007"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Suriname"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5008"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tunesië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5009"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Oostenrijk"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5010"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="België"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5011"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Botswana"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5012"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Iran"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5013"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nieuw-Zeeland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5014"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zuid-Afrika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5015"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Denemarken"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5016"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Noord-Jemen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5017"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Hongarije"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5018"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Saoedi-Arabië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5019"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Liberia"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5020"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ethiopië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5021"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Chili"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5022"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Marokko"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5023"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Togo"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5024"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ghana"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5025"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Laos"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5026"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Angola"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5027"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Filipijnen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5028"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zambia"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5029"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Mali"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5030"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ivoorkust"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5031"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burma"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5032"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Monaco"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5033"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Colombia"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5034"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Albanië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5035"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kameroen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5036"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zuid-Vietnam"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5037"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Singapore"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5038"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Paraguay"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5039"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zweden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5040"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Cyprus"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5041"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Australisch Nieuw-Guinea"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5042"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brunei"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5043"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Irak"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5044"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Mauritius"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5045"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Vaticaanstad"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5046"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kashmir"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5047"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Myanmar"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5048"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Jemen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5049"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Slovenië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5050"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zaïre"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5051"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kroatië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5052"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Taiwan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5053"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Rusland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5054"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Armenië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5055"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ascension"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5056"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Azoren"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5057"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bahrein"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5058"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bhutan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5059"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Britse Antillen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5060"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Comoren"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5061"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Falklandeilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5062"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Frans-Guyana"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5063"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Frans-Somaliland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5064"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Gilbert- en Ellice-eilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5065"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Groenland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5066"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Guadeloupe"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5067"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kaapverdische Eilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5068"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Macau"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5069"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Martinique"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5070"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Mozambique"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5071"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Pitcairneilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5072"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Guinee-Bissau"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5073"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Réunion"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5074"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Saint Pierre en Miquelon"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5075"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Seychellen en Amiranten"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5076"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tonga"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5077"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Wallis en Futuna"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5078"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zuidwest-Afrika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5079"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Frans-Indië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5080"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Johnston"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5081"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kedah"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5082"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kelantan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5083"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Malakka"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5084"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Mayotte"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5085"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Negri Sembilan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5086"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Pahang"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5087"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Perak"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5088"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Perlis"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5089"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Portugees-Indië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5090"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Selangor"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5091"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Sikkim"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5092"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Saint Vincent en de Grenadines"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5093"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Spitsbergen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5094"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Trengganu"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5095"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Aruba"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5096"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burkina Faso"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5097"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Azerbeidzjan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5098"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Belarus"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5099"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kazachstan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5100"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Macedonië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5101"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Timor Leste"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5102"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Servië en Montenegro"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5103"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Servië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5104"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Montenegro"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5105"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kosovo"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5106"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bonaire"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5107"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Curaçao"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5108"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Saba"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5109"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Sint Eustatius"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5110"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Sint Maarten"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5111"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zuid-Soedan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5112"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Gazastrook en Westelijke Jordaanoever"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="5113"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Republiek Noord-Macedonië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6000"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Moldavië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6001"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burundi"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6002"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Finland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6003"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Griekenland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6004"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Guatemala"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6005"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nigeria"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6006"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Libië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6007"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ierland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6008"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brazilië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6009"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Rwanda"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6010"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Venezuela"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6011"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="IJsland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6012"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Liechtenstein"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6013"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Somalië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6014"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Verenigde Staten van Amerika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6015"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bolivia"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6016"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Australië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6017"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Jamaica"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6018"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Luxemburg"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6019"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tsjaad"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6020"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Mauritanië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6021"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kirgizië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6022"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="China"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6023"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Afghanistan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6024"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Indonesië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6025"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Guyana"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6026"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Noord-Vietnam"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6027"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Noorwegen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6028"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="San Marino"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6029"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Duitsland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6030"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nederland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6031"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Cambodja"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6032"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Fiji"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6033"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bahama's"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6034"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Israël"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6035"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nepal"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6036"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zuid-Korea"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6037"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Spanje"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6038"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Oekraïne"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6039"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Groot-Brittannië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6040"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Niger"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6041"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Haïti"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6042"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Jordanië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6043"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Turkije"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6044"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Trinidad en Tobago"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6045"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Joegoslavië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6046"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Opper-Volta"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6047"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Algerije"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6048"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Gabon"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6049"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Noord-Korea"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6050"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Oezbekistan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6051"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Sierra Leone"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6052"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits-Honduras"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6053"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Canarische Eilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6054"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Frans-Polynesië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6055"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Gibraltar"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6056"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Portugees-Timor"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6057"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tadzjikistan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6058"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Britse Salomonseilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6059"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="São Tomé en Principe"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6060"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Sint-Helena"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6061"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tristan Da Cunha"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6062"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="West-Samoa"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6063"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Turkmenistan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6064"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Georgië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6065"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bosnië-Herzegovina"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6066"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tsjechië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6067"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Slowakije"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6068"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Federale Republiek Joegoslavië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="6069"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Democratische Republiek Congo"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7001"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Uganda"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7002"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kenya"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7003"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Malta"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7004"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Barbados"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7005"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Andorra"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7006"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Mexico"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7007"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Costa Rica"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7008"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Gambia"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7009"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Syrië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7011"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nederlandse Antillen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7012"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zuid-Jemen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7014"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Egypte"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7015"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Argentinië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7016"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Lesotho"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7017"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Honduras"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7018"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nicaragua"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7020"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Pakistan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7021"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Senegal"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7023"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Dahomey"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7024"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bulgarije"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7026"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Maleisië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7027"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Dominicaanse Republiek"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7028"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Polen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7029"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Rusland (oud)"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7030"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Britse Maagdeneilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7031"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tanzania"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7032"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="El Salvador"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7033"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Sri Lanka"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7034"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Soedan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7035"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Japan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7036"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Hongkong"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7037"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Panama"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7038"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Uruguay"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7039"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ecuador"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7040"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Guinee"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7041"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Maldiven"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7042"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Thailand"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7043"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Libanon"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7044"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Italië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7045"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Koeweit"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7046"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="India"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7047"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Roemenië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7048"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tsjecho-Slowakije"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7049"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Peru"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7050"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Portugal"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7051"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Oman"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7052"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Mongolië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7053"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Samoa"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7054"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Verenigde Arabische Emiraten"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7055"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tibet"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7057"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nauru"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7058"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nederlands Nieuw-Guinea"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7059"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tanganyika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7060"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Palestina"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7062"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits West-Indië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7063"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Portugees-Afrika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7064"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Letland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7065"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Estland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7066"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Litouwen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7067"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits-Afrika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7068"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Belgisch-Congo"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7070"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits-Indië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7071"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Noord-Rhodesië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7072"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zuid-Rhodesië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7073"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Saarland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7074"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Frans Indochina"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7075"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits West-Borneo"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7076"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Goudkust"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7077"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ras al-Khaimah"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7079"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Frans-Congo"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7080"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Siam"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7082"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits Oost-Afrika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7083"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits Noord-Borneo"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7084"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bangladesh"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7085"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Duitse Democratische Republiek"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7087"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Madeira-eilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7088"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Amerikaanse Maagdeneilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7089"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Australische Salomonseilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7091"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Spaanse Sahara"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7092"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Caymaneilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7093"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Caicoseilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7094"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Turkseilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7095"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits Antarctisch Territorium"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7096"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits Indische Oceaanterritorium"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7097"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Cookeilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7098"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tokelau"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="7099"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nieuw-Caledonië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8000"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Hawaii-eilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8001"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Guam"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8002"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Amerikaans-Samoa"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8003"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Midway"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8004"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Riukiu-eilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8005"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Wake"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8006"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Pacific-eilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8008"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Grenada"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8009"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Marianen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8010"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Cabinda"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8011"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Canton en Enderbury"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8012"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Christmaseiland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8013"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Cocoseilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8014"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Faeröer"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8015"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Montserrat"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8016"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Norfolk"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8017"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Belize"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8018"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tasmanië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8019"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Turks- en Caicoseilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8020"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Puerto Rico"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8021"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Papoea-Nieuw-Guinea"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8022"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Salomonseilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8023"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Benin"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8024"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Vietnam"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8025"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kaapverdië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8026"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Seychellen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8027"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kiribati"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8028"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tuvalu"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8029"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Saint Lucia"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8030"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Dominica"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8031"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zimbabwe"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8032"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Dubai"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8033"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nieuwe Hebriden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8034"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kanaaleilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8035"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Man"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8036"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Anguilla"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8037"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Saint Kitts en Nevis"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8038"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Antigua"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8039"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Saint Vincent"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8040"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Gilberteilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8041"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Panamakanaalzone"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8042"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Saint Kitts, Nevis en Anguilla"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8043"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Belau"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8044"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Palau"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="8045"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Antigua en Barbuda"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9000"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Newfoundland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9001"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nyasaland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9003"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Eritrea"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9005"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ifni"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9006"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits-Kameroen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9007"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Keizer Wilhelmsland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9008"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Congo"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9009"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Congo-Kinshasa"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9010"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Madagaskar"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9013"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Congo-Brazzaville"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9014"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Leewardeilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9015"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Windwardeilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9016"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Frans Territorium voor Afars en Issa's"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9017"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Phoenixeilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9020"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Portugees-Guinee"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9022"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Duits Zuidwest-Afrika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9023"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Namibië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9027"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits-Somaliland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9028"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Italiaans-Somaliland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9030"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nederlands-Indië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9031"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits-Guyana"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9036"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Swaziland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9037"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Qatar"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9038"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Eswatini"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9041"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Aden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9042"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zuid-Arabische Federatie"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9043"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Equatoriaal-Guinea"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9044"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Spaans-Guinee"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9047"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Verenigde Arabische Republiek"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9048"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bermuda"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9049"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Sovjet-Unie"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9050"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Duits Oost-Afrika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9051"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zanzibar"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9052"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ceylon"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9053"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Muscat en Oman"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9054"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Trucial Oman"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9055"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Indochina"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9056"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Marshalleilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9057"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Sarawak"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9058"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits-Borneo"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9060"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Sabah"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9061"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Abu Dhabi"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9062"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ajman"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9063"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Basutoland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9064"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bechuanaland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9065"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Fujairah"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9066"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Frans-Kameroen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9067"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Johore"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9068"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Korea"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9069"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Labuan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9070"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Umm Al-Qaiwain"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9071"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Oostenrijk-Hongarije"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9072"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Portugees Oost-Afrika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9073"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Portugees West-Afrika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9074"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Sharjah"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9075"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Straits Settlements"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9076"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Abessinië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9077"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Frans West-Afrika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9078"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Frans Equatoriaal-Afrika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9081"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Urundi"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9082"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ruanda-Urundi"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9084"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Goa"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9085"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Dantzig"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9086"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Centraal-Afrikaanse Republiek"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9087"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Djibouti"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9088"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Transjordanië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9089"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bondsrepubliek Duitsland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9090"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Vanuatu"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9091"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Niue"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9092"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Spaans Noord-Afrika"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9093"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Westelijke Sahara"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9094"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Micronesia"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9095"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Svalbardeilanden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="9999"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Internationaal gebied"/>
+      </designation>
+   </concept>
+</CodeSystem>

@@ -1,0 +1,26 @@
+{
+	"name": "nictiz.fhir.nl.r4.zib2020",
+	"version": "0.1.0",
+	"canonical": null,
+	"web": "https://informatiestandaarden.nictiz.nl/wiki/Landingspagina_MedMij",
+	"title": "Nictiz FHIR NL R4 Zib2020",
+	"description": "Nictiz NL package of FHIR R4 conformance resources for HCIM Release 2020. Includes MedMij and HL7 NL.\r\n\r\nHCIMs: https://zibs.nl/wiki/HCIM_Release_2020(EN)",
+	"keywords": [
+		"nl",
+		"Nictiz"
+	],
+	"author": "nictiz",
+	"maintainers": [
+		{
+			"name": "Nictiz",
+			"email": "info@nictiz.nl"
+		}
+	],
+	"license": "CC0-1.0",
+	"devDependencies": null,
+	"canonicals": null,
+	"dependencies": {
+		"hl7.fhir.r4.core": "4.0.1"
+	},
+	"fhirVersions": ["4.0.1"]
+}

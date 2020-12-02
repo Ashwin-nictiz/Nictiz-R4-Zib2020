@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="zib-MedicationContraIndication-ReasonClosure" />
+  <url value="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationContraIndication-ReasonClosure" />
+  <version value="1.0.0" />
+  <name value="ZibMedicationContraIndicationReasonClosure" />
+  <title value="HCIM MedicationContraIndicationReasonClosure" />
+  <status value="draft" />
+  <publisher value="Nictiz" />
+  <contact>
+    <name value="Nictiz" />
+    <telecom>
+      <system value="email" />
+      <value value="info@nictiz.nl" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <description value="Defines a value for the concept ReasonClosure used in HCIM MedicationContraIndication." />
+  <copyright value="CC0" />
+  <fhirVersion value="4.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Flag" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="ReasonClosure for HCIM MedicationContraIndication" />
+      <definition value="Defines a value for the concept ReasonClosure used in HCIM MedicationContraIndication." />
+      <alias value="Definieert een waarde voor het concept RedenVanAfsluiten gebruikt in de zib MedicatieContraIndicatie." />
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationContraIndication-ReasonClosure" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+    </element>
+    <element id="Extension.value[x]:valueString">
+      <path value="Extension.value[x]" />
+      <sliceName value="valueString" />
+      <code>
+        <system value="http://snomed.info/sct" />
+        <code value="140411000146107" />
+        <display value="reden voor afsluiten van contra-indicatie" />
+      </code>
+      <short value="ReasonClosure" />
+      <definition value="Reason for closing the medication contraindication." />
+      <min value="1" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

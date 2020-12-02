@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="http://example.org/fhir/StructureDefinition/CareTeam" />
+  <name value="CareTeam" />
+  <status value="draft" />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="w5" />
+    <uri value="http://hl7.org/fhir/fivews" />
+    <name value="FiveWs Pattern Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="v2" />
+    <uri value="http://hl7.org/v2" />
+    <name value="HL7 v2 Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="CareTeam" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/CareTeam" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="CareTeam.name">
+      <path value="CareTeam.name" />
+      <definition value="The name of the care team." />
+      <alias value="ZorgTeamNaam" />
+      <mapping>
+        <identity value="hcim-careteam-v1.0-2020EN" />
+        <map value="NL-CM:17.3.12" />
+        <comment value="CareTeamName" />
+      </mapping>
+    </element>
+    <element id="CareTeam.subject">
+      <path value="CareTeam.subject" />
+      <definition value="The patient as member of the care_team." />
+      <mapping>
+        <identity value="hcim-careteam-v1.0-2020EN" />
+        <map value="NL-CM:17.3.7" />
+        <comment value="CareTeamMember::Patient" />
+      </mapping>
+    </element>
+  </differential>
+</StructureDefinition>

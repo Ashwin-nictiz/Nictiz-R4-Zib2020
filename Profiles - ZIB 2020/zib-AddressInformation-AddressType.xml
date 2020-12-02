@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="zib-AddressInformation-AddressType" />
+  <url value="http://nictiz.nl/fhir/StructureDefinition/zib-AddressInformation-AddressType" />
+  <version value="0.1.0" />
+  <name value="ZibAddressInformationAddressType" />
+  <title value="HCIM AddressInformation AddressType" />
+  <status value="active" />
+  <publisher value="Nictiz" />
+  <contact>
+    <name value="Nictiz" />
+    <telecom>
+      <system value="email" />
+      <value value="info@nictiz.nl" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <description value="An extension to bind the HCIM AddressInformation ValueSet &quot;AdresTypeCodelijst&quot; to an Address datatype." />
+  <copyright value="CC0" />
+  <fhirVersion value="4.0.1" />
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Address" />
+  </context>
+  <context>
+    <type value="element" />
+    <expression value="Patient.address" />
+  </context>
+  <context>
+    <type value="element" />
+    <expression value="Patient.contact.address" />
+  </context>
+  <context>
+    <type value="element" />
+    <expression value="Practitioner.address" />
+  </context>
+  <context>
+    <type value="element" />
+    <expression value="RelatedPerson.address" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://nictiz.nl/fhir/StructureDefinition/zib-AddressInformation-AddressType" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <rules value="closed" />
+      </slicing>
+    </element>
+    <element id="Extension.value[x]:valueCodeableConcept">
+      <path value="Extension.value[x]" />
+      <sliceName value="valueCodeableConcept" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <binding>
+        <strength value="extensible" />
+        <description value="AdresSoortCodelijst" />
+        <valueSet value="http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.20.5.3--20200901000000" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

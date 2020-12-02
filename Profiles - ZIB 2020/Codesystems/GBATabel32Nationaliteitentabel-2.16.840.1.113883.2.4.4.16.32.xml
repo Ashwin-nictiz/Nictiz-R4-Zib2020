@@ -1,0 +1,2641 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="2.16.840.1.113883.2.4.4.16.32"/>
+   <meta>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/CodeSystem"/>-->
+   </meta>
+   <language value="nl-NL"/>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2020-04-01T00:00:00+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="urn:oid:2.16.840.1.113883.2.4.4.16.32"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/cs"/>
+      <value value="2.16.840.1.113883.2.4.4.16.32"/>
+   </identifier>
+   <version value="2020-04-01T00:00:00"/>
+   <name value="GBATabel32Nationaliteitentabel"/>
+   <title value="GBA Tabel 32 (Nationaliteitentabel)"/>
+   <status value="draft"/>
+   <experimental value="false"/>
+   <publisher value="Rijksdienst voor Identiteitsgegevens"/>
+   <contact>
+      <name value="Rijksdienst voor Identiteitsgegevens"/>
+      <telecom>
+         <system value="url"/>
+         <value value="http://publicaties.rvig.nl"/>
+      </telecom>
+   </contact>
+   <description value="GBA/BRP tabel 32 Nationaliteiten. Link naar de bron [https://publicaties.rvig.nl/Landelijke_tabellen/Inleiding_op_de_Landelijke_Tabellen_GBA](https://publicaties.rvig.nl/Landelijke_tabellen/Inleiding_op_de_Landelijke_Tabellen_GBA)"/>
+   <copyright value="Rijksdienst voor Identiteitsgegevens"/>
+   <caseSensitive value="false"/>
+   <content value="complete"/>
+   <count value="217"/>
+   <concept>
+      <code value="0000"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Onbekend"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0001"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nederlandse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0002"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Behandeld als Nederlander"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0027"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Slowaakse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0028"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tsjechische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0029"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van Bosnië-Herzegovina"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0030"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Georgische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0031"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Turkmeense"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0032"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tadzjiekse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0033"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Oezbeekse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0034"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Oekraïense"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0035"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kirgizische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0036"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Moldavische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0037"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kazachse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0038"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Belarussische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0039"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Azerbeidzjaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0040"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Armeense"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0041"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Russische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0042"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Sloveense"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0043"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kroatische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0044"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Letse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0045"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Estische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0046"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Litouwse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0047"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Marshalleilandse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0048"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Myanmarese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0049"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Namibische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0050"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Albanese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0051"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Andorrese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0052"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Belgische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0053"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bulgaarse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0054"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Deense"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0055"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van de Bondsrepubliek Duitsland"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0056"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Finse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0057"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Franse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0058"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Jemenitische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0059"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Griekse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0060"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits burger"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0061"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Hongaarse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0062"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ierse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0063"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="IJslandse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0064"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Italiaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0065"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Joegoslavische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0066"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Liechtensteinse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0067"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Luxemburgse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0068"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Maltese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0069"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Monegaskische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0070"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Noorse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0071"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Oostenrijkse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0072"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Poolse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0073"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Portugese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0074"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Roemeense"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0075"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van de Sovjet-Unie"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0076"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="San Marinese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0077"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Spaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0078"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tsjecho-Slowaakse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0079"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Vaticaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0080"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zweedse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0081"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zwitserse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0082"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Oost-Duitse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0083"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits onderdaan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0084"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Eritrese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0085"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Brits overzees burger"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0086"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Macedonische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0087"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kosovaarse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0088"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Macedonische/Burger van Noord-Macedonië"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0100"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Algerijnse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0101"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Angolese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0104"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burundese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0105"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Botswaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0106"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burkinese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0108"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Centraal-Afrikaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0109"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Comorese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0110"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van Congo"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0111"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Beninse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0112"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Egyptische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0113"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Equatoriaal-Guinese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0114"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ethiopische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0115"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Djiboutiaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0116"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Gabonese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0117"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Gambiaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0118"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ghanese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0119"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Guinese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0120"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ivoriaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0121"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kaapverdische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0122"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kameroense"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0123"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kenyaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0124"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zaïrese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0125"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Lesothaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0126"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Liberiaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0127"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Libische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0128"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Malagassische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0129"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Malawische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0130"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Malinese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0131"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Marokkaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0132"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Mauritaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0133"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Mauritiaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0134"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Mozambikaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0135"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Swazische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0136"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nigerese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0137"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nigeriaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0138"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ugandese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0139"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Guinee-Bissause"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0140"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zuid-Afrikaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0141"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Eswatinische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0142"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zimbabwaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0143"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Rwandese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0144"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van São Tomé en Principe"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0145"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Senegalese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0147"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Sierra Leoonse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0148"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Soedanese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0149"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Somalische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0151"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tanzaniaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0152"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Togolese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0154"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tsjadische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0155"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tunesische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0156"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zambiaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0157"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zuid-Soedanese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0200"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bahamaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0202"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Belizaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0204"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Canadese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0205"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Costa Ricaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0206"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Cubaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0207"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Dominicaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0208"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Salvadoraanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0211"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Guatemalaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0212"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Haïtiaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0213"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Hondurese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0214"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Jamaicaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0216"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Mexicaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0218"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nicaraguaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0219"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Panamese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0222"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van Trinidad en Tobago"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0223"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Amerikaans burger"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0250"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Argentijnse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0251"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Barbadaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0252"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Boliviaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0253"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Braziliaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0254"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Chileense"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0255"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Colombiaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0256"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Ecuadoraanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0259"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Guyaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0261"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Paraguayaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0262"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Peruaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0263"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Surinaamse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0264"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Uruguayaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0265"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Venezolaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0267"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Grenadaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0268"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van Saint Kitts en Nevis"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0300"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Afghaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0301"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bahreinse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0302"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bhutaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0303"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burmaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0304"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bruneise"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0305"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Cambodjaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0306"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Sri Lankaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0307"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Chinese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0308"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Cyprische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0309"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Filipijnse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0310"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Taiwanese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0312"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Indiase"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0313"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Indonesische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0314"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Iraakse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0315"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Iraanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0316"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Israëlische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0317"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Japanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0318"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Noord-Jemenitische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0319"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Jordaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0320"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Koeweitse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0321"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Laotiaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0322"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Libanese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0324"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Maldivische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0325"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Maleisische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0326"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Mongolische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0327"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Omaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0328"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nepalese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0329"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Noord-Koreaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0331"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Pakistaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0333"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Qatarese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0334"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Saoedi-Arabische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0335"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Singaporese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0336"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Syrische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0337"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Thaise"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0338"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van de Verenigde Arabische Emiraten"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0339"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Turkse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0340"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zuid-Jemenitische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0341"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Zuid-Koreaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0342"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Vietnamese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0345"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Bengalese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0400"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Australische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0401"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Papoea-Nieuw-Guinese"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0402"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nieuw-Zeelandse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0404"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="West-Samoaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0405"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Samoaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0421"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van Antigua en Barbuda"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0424"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Vanuatuaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0425"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Fijische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0429"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van Britse afhankelijke gebieden"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0430"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tongaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0431"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Nauruaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0432"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Palause"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0437"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Amerikaans onderdaan"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0442"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Salomonseilandse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0443"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Micronesische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0444"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Seychelse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0445"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Kiribatische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0446"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Tuvaluaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0447"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Saint Luciaanse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0448"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van Dominica"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0449"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van Saint Vincent en de Grenadines"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0450"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="British National (overseas)"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0451"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van Democratische Republiek Congo"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0452"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van Timor Leste"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0453"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Burger van Servië en Montenegro"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0454"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Servische"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0455"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Montenegrijnse"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0499"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Staatloos"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0500"/>
+      <designation>
+         <language value="nl-NL"/>
+         <use>
+            <system value="http://snomed.info/sct"/>
+            <code value="900000000000013009"/>
+            <display value="synonym"/>
+         </use>
+         <value value="Vastgesteld niet-Nederlander"/>
+      </designation>
+   </concept>
+</CodeSystem>

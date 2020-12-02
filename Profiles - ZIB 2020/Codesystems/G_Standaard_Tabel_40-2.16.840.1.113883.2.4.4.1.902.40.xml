@@ -1,0 +1,22 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="2.16.840.1.113883.2.4.4.1.902.40"/>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2020-10-28T14:50:47+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="urn:oid:2.16.840.1.113883.2.4.4.1.902.40"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/cs"/>
+      <value value="2.16.840.1.113883.2.4.4.1.902.40"/>
+   </identifier>
+   <version value="2020-10-28T14:50:47"/>
+   <name value="G_Standaard_Tabel_40"/>
+   <title value="G-Standaard Tabel 40"/>
+   <status value="unknown"/>
+   <publisher value="ART-DECOR"/>
+   <description value="G-Standaard Tabel 40"/>
+   <content value="not-present"/>
+   <count value="0"/>
+</CodeSystem>
