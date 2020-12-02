@@ -17,13 +17,13 @@
         <system value="http://fhir.nl/fhir/NamingSystem/big"/>
         <value value="12345678912"/>
     </identifier>
-    <name
+    <name>
         <family value="de Vries">
             <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-prefix">
                 <valueString value="de"/>
             </extension>
             <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">
-                <valueString value="Vriess"/>
+                <valueString value="Vries"/>
             </extension>
         </family>
         <given value="Henk"/>
