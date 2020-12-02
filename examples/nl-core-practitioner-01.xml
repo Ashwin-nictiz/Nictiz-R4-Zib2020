@@ -23,7 +23,7 @@
                 <valueString value="de"/>
             </extension>
             <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">
-                <valueString value="Vriesss"/>
+                <valueString value="Vriessss"/>
             </extension>
         </family>
         <given value="Henk"/>
